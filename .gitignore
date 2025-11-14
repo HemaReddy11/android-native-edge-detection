@@ -1,0 +1,28 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Ignore OpenCV SDK heavy folders
+OpenCV/.cxx/
+OpenCV/sdk/.cxx/
+OpenCV/sdk/java/build/
+OpenCV/sdk/build/
+OpenCV/build/
+# Ignore OpenCV SDK heavy folders
+OpenCV/
+opencv/
+sdk/
+*.so
+*.a
+*.o
